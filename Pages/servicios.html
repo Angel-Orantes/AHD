@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estoy en la pagina de servicios</title>
+    <title>Servicios</title>
 </head>
+
 <body>
-   
-   <footer style="background-color: blanchedalmond;width: 100%; height: 240px;">
-      <div>
-      <div style="text-align: center;">
-         <!-- Contenedor 2 -->
-          <img src="../img/camara.png" alt="logo" style="width: 70px;">
 
-      </div>
-      <div>
-         <!-- menu de navegacion -->
-          <nav style="text-align: center;">
-            <!-- contenedor 1 -->
-           <ul class="nav1" style="text-align: center;">
-            <li>
-               <a href=".//index.html">INICIO</a>
-            </li>
-            <li>
-               <a href=".//Pages/acerca-de.html">ACERCA DE</a>
-            </li>
-            <li>
-               <a href=".//Pages/servicios.html">SERVICIOS</a>
-            </li>
-            <li> 
-               <a href=".//Pages/galeria.html">GALERIA</a>
-            </li>
-            <li>
-               <a href=".//Pages/planes.html">PLANES</a>
-            </li>
-            <li>
-               <a href=".//Pages/contacto.html">CONTACTO</a>
-            </li>
+    <!-- HEADER CON LOGO Y NAVEGACION -->
+    <nav style="background-color: aqua; width: 100%; height: 70px; margin-bottom: 20px;">
+    
+    <div style="width: 40%; float: left;">
+      <ul class="nav1">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../Pages/acerca-de.html">Acerca de</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+      </ul>
+    </div>  
 
-           </ul>  
+    <div style="width: 10%; float: left; text-align: center;">
+      <img src="../img/camara.png" alt="logo" width="70px">
+    </div>
 
-          </nav>
-           <main>
-        <section style="height: 200px;text-align: center;">
-            <hr>
-            <div style=" width: 50%; height: 200px; float: left;">
-                <div>
-                    <h2>Bautizos</h2>
-                </div>
+    <div style="width: 40%; float: left;">
+      <ul class="nav2">
+        <li><a href="../img/camara.png">Galería</a></li>
+        <li><a href="planes.html">Planes</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div style="clear: both;"></div>
+  </nav>
+
+    <!-- SECCIONES DE SERVICIOS -->
+    <main style="width: 100%;">
+        <section style="height: 200px; overflow: hidden; margin: 20px 0;">
+            <div style="width: 50%; float: left; height: 200px;">
+                <h2>Bautizos</h2>
+            </div>
+            <div style="width: 50%; float: left; height: 200px;">
                 <img src="../img/bautizo.jpg" alt="servicio 1" width="60%">
             </div>
-
         </section>
-        <section style="height: 200px; text-align: center;">
-             <div style="width: 50%; height: 200px; float: left;">
-            <div>
+
+        <section style="height: 200px; overflow: hidden; margin: 20px 0;">
+            <div style="width: 50%; float: left; height: 200px;">
+                <img src="../img/cumpleaños.jpg" alt="servicio 2" width="60%">
+            </div>
+            <div style="width: 50%; float: left; height: 200px;">
                 <h2>Cumpleaños</h2>
             </div>
-            <img src="../img/cumpleaños.jpg" alt="servicio 1" width="60%">
-        </div>
         </section>
-        <section style="height: 200px; text-align: center;">
-            <div>
-                <div style="width: 50%; height: 200px; float: left;">
-                    <h2>Bodas</h2>
-                </div>
-                <div style="width: 50%; height: 200px;">
-                <img src="../img/bodas.jpg" alt="servicio 3" width="60%" >
-                </div>
+
+        <section style="height: 200px; overflow: hidden; margin: 20px 0;">
+            <div style="width: 50%; float: left; height: 200px;">
+                <h2>Bodas</h2>
+            </div>
+            <div style="width: 50%; float: left; height: 200px;">
+                <img src="../img/bodas.jpg" alt="servicio 3" width="60%">
             </div>
         </section>
+
     </main>
-      </div>
-   </footer>
+
+    <div style="clear: both;"></div>
+
+    <!-- PIE DE PAGINA -->
+    <footer style="width: 100%; background-color: aquamarine; margin-top: 20px;">
+        <table width="100%" height="70">
+            <tr>
+                <td align="left">
+                    <p>Copyright 2026 website. Todos los derechos reservados</p>
+                </td>
+                <td align="right">
+                    <a href="#">Términos y condiciones</a>
+                    <a href="#">Políticas y privacidad</a>
+                </td>
+            </tr>
+        </table>
+    </footer>
 
 </body>
+
 </html>

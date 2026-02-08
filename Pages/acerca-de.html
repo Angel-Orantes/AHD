@@ -23,18 +23,55 @@
     .nav2 {
       text-align: right;
     }
+
+    /* Contenedores Misión y Visión */
+    .mis-vision-container {
+      width: 80%;
+      margin: 30px auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .mis-vision {
+      width: 48%;
+      background-color: #f0f0f0;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: justify;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Valores centrados */
+    .valores {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .circulo {
+      width: 80px;
+      height: 80px;
+      border: 2px solid black;
+      border-radius: 50%;
+    }
+
+    h2 {
+      text-align: center;
+    }
   </style>
 </head>
 
 <body>
-
-  <h1>CONTACTO</h1>
-  <a href="../index.html">Regresar a inicio</a>
+  <div style="text-align: center; margin-bottom: 20px;">
+    <a href="../index.html">Regresar a inicio</a>
+  </div>
 
   <!-- MENU DE NAVEGACION -->
-  <nav style="background-color: aqua; width: 100%; height: 70px;">
+  <nav style="background-color: aqua; width: 100%; height: 70px; margin-bottom: 20px;">
     
-    <!-- contenedor 1 -->
     <div style="width: 40%; float: left;">
       <ul class="nav1">
         <li><a href="../index.html">Inicio</a></li>
@@ -43,24 +80,46 @@
       </ul>
     </div>  
 
-    <!-- contenedor 2 -->
     <div style="width: 10%; float: left; text-align: center;">
       <img src="../img/camara.png" alt="logo" width="70px">
     </div>
 
-    <!-- contenedor 3 -->
     <div style="width: 40%; float: left;">
       <ul class="nav2">
-        <li><a href="../img/camara.png">Galería</a></li>
+        <li><a href="../Pages/galeria.html">Galería</a></li>
         <li><a href="planes.html">Planes</a></li>
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </div>
 
+    <div style="clear: both;"></div>
   </nav>
 
+  <!-- SECCION MISION Y VISION -->
+  <div class="mis-vision-container">
+    <div class="mis-vision">
+      <h2>Misión</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates soluta cum, aliquam maiores reiciendis nihil ea obcaecati et, neque consequuntur, vitae alias in quis cumque laborum sed quaerat officiis!</p>
+    </div>
+
+    <div class="mis-vision">
+      <h2>Visión</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, perferendis nesciunt qui repellendus dolores unde sit laborum autem obcaecati ipsam vero cupiditate eos. Debitis eaque enim dicta eligendi officia sapiente?</p>
+    </div>
+  </div>
+
+  <!-- SECCION VALORES -->
+  <div class="section">
+    <h2>Valores</h2>
+    <div class="valores">
+      <div class="circulo"></div>
+      <div class="circulo"></div>
+      <div class="circulo"></div>
+    </div>
+  </div>
+
   <!-- PIE DE PAGINA -->
-  <footer>
+  <footer style="margin-top: 40px;">
     <table width="100%" height="70" bgcolor="aquamarine">
       <tr>
         <td align="left">
